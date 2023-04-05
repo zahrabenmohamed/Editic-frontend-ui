@@ -1,8 +1,5 @@
 
-import {
-  
-  columnsDataComplex,
-} from "./variables/columnsData";
+import { columnsDataComplex} from "./variables/columnsData";
 import tableDataComplex from "./variables/tableDataComplex.json";
 import ComplexTable from "./components/ComplexTable";
 

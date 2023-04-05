@@ -1,4 +1,3 @@
-import CardMenu from "components/card/CardMenu";
 import Card from "components/card";
 import {
   useGlobalFilter,
@@ -8,7 +7,6 @@ import {
 } from "react-table";
 import { MdCheckCircle, MdCancel, MdOutlineError } from "react-icons/md";
 import { useMemo } from "react";
-import Progress from "components/progress";
 const ComplexTable = (props) => {
   const { columnsData, tableData } = props;
 
@@ -37,11 +35,13 @@ const ComplexTable = (props) => {
 
   return (
     <Card extra={"w-full h-full p-4 sm:overflow-x-auto"}>
-      <div class="relative flex items-center justify-between">
+      <div class="relative  items-center justify-between">
         <div class="text-xl font-bold text-navy-700 dark:text-white">
-          Complex Table
+          Transactions
         </div>
-        <CardMenu />
+        <p className="text-gray-500 ">An Overview of the action of the user</p>
+
+        
       </div>
 
       <div class="mt-8 h-full overflow-x-scroll xl:overflow-hidden">
@@ -99,8 +99,12 @@ const ComplexTable = (props) => {
                           {cell.value}
                         </p>
                       );
-                    } else if (cell.column.Header === "PROGRESS") {
-                      data = <Progress width="w-[68px]" value={cell.value} />;
+                    } else if (cell.column.Header === "OPERATION") {
+                      data = (
+                        <p className="text-sm font-bold text-navy-700 dark:text-white">
+                          {cell.value}
+                        </p>
+                      );
                     }
                     return (
                       <td
