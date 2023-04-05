@@ -32,7 +32,7 @@ const routes = [
     component: <DataTables />,
   },
   {
-    name: "Profile",
+    name: "Users",
     layout: "/admin",
     path: "profile",
     icon: <MdPerson className="h-6 w-6" />,

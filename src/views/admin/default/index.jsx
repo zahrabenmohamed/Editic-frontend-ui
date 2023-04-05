@@ -36,8 +36,8 @@ const Dashboard = () => {
         />
         <Widget
           icon={<MdDashboard className="h-6 w-6" />}
-          title={"Your Balance"}
-          subtitle={"$1,000"}
+          title={"Total Storage"}
+          subtitle={"250 GB"}
         />
         <Widget
           icon={<MdBarChart className="h-7 w-7" />}
