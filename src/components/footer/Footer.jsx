@@ -20,15 +20,6 @@ const Footer = () => {
           <li>
             <a
               target="blank"
-              href="https://simmmple.com/licenses"
-              className="text-base font-medium text-gray-600 hover:text-gray-600"
-            >
-              License
-            </a>
-          </li>
-          <li>
-            <a
-              target="blank"
               href="https://simmmple.com/terms-of-service"
               className="text-base font-medium text-gray-600 hover:text-gray-600"
             >

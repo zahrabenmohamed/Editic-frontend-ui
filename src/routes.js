@@ -1,4 +1,6 @@
 import React from "react";
+import { IoDocuments } from "react-icons/io5";
+
 
 // Admin Imports
 import MainDashboard from "views/admin/default";
@@ -43,6 +45,14 @@ const routes = [
     layout: "/auth",
     path: "sign-in",
     icon: <MdLock className="h-6 w-6" />,
+    component: <SignIn />,
+  },
+  //modify this later 
+  {
+    name: "Template Generator",
+    layout: "/auth",
+    path: "sign-in",
+    icon: <IoDocuments className="h-6 w-6" />,
     component: <SignIn />,
   },
   

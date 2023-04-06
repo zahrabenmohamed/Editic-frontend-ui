@@ -1,12 +1,12 @@
+import "primereact/resources/themes/lara-light-indigo/theme.css";     
+import "primereact/resources/primereact.min.css";
+import "primeicons/primeicons.css";                                         
 
 const ProfileOverview = () => {
   return (
-    <div className="">
-      <div className="">
-        
-
-      </div>
-    </div>
+    <div>
+         
+        </div>
   );
 };
 
