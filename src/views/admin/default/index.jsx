@@ -9,7 +9,6 @@ import { columnsDataCheck } from "./variables/columnsData";
 
 import Widget from "components/widget/Widget";
 import CheckTable from "views/admin/default/components/CheckTable";
-import DailyTraffic from "views/admin/default/components/DailyTraffic";
 import tableDataCheck from "./variables/tableDataCheck.json";
 
 const Dashboard = () => {
@@ -71,9 +70,8 @@ const Dashboard = () => {
 
         {/* Traffic chart & Pie Chart */}
 
-        <div className="grid grid-cols-1 gap-5 rounded-[20px] md:grid-cols-2">
-          <DailyTraffic />
-          <PieChartCard />
+        <div className="grid grid-cols-1 rounded-[20px]">
+        <PieChartCard />
         </div>
 
       </div>

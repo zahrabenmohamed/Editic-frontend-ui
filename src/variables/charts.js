@@ -1,9 +1,4 @@
-export const barChartDataDailyTraffic = [
-  {
-    name: "Daily Traffic",
-    data: [20, 30, 40, 20, 45, 50, 30],
-  },
-];
+
 
 export const barChartOptionsDailyTraffic = {
   chart: {
@@ -103,8 +98,8 @@ export const barChartOptionsDailyTraffic = {
 };
 
 export const pieChartOptions = {
-  labels: ["Your files", "System", "Empty"],
-  colors: ["#4318FF", "#6AD2FF", "#EFF4FB"],
+  labels: ["RIB", "Mail", "Monthly Report","Invoice","payment receipt"],
+  colors: ["#6AD2FF", "#7551FF", "#5F3AFF", "#FFB66D", "#11047A"],
   chart: {
     width: "50px",
   },
@@ -133,7 +128,7 @@ export const pieChartOptions = {
     },
   },
   fill: {
-    colors: ["#4318FF", "#6AD2FF", "#EFF4FB"],
+    colors: ["#6AD2FF", "#7551FF", "#4318FF", "#FFB66D", "#5F3AFF"],
   },
   tooltip: {
     enabled: true,
@@ -146,7 +141,7 @@ export const pieChartOptions = {
   },
 };
 
-export const pieChartData = [63, 25, 12];
+export const pieChartData = [15, 25, 12,40,8];
 
 export const barChartDataWeeklyRevenue = [
   {

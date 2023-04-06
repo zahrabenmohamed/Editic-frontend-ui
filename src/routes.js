@@ -50,10 +50,10 @@ const routes = [
   //modify this later 
   {
     name: "Template Generator",
-    layout: "/auth",
-    path: "sign-in",
+    layout: "/admin",
+    path: "template",
     icon: <IoDocuments className="h-6 w-6" />,
-    component: <SignIn />,
+    component: <Profile />, //todo
   },
   
 ];
