@@ -19,15 +19,6 @@ export default function Footer() {
         <li className="mr-12">
           <a
             target="blank"
-            href="https://simmmple.com/licenses"
-            className="text-sm text-gray-600 hover:text-gray-600 md:text-base lg:text-white lg:hover:text-white"
-          >
-            License
-          </a>
-        </li>
-        <li className="mr-12">
-          <a
-            target="blank"
             href="https://simmmple.com/terms-of-service"
             className="text-sm text-gray-600 hover:text-gray-600 md:text-base lg:text-white lg:hover:text-white"
           >
